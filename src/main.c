@@ -18,7 +18,7 @@ static void gpio_setup (void){
 }
 
 static void delay_cycle(uint32_t cycles){
-    //int i;
+    
     for (uint32_t i = 0; i < cycles; i++){
         __asm__("nop");
     }
